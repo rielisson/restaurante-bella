@@ -1,7 +1,58 @@
+:root {
+    --fonte-principal: "Poetsen One", sans-serif;
+    --fonte-secundaria: "Roboto", sans-serif;
+}
+
 .div-image-principal {
     width: 100%;
 }
 .image-principal {
     width: 100%;
     height: 100vh;
+}
+
+.hero-informacoes {
+    z-index: 3;
+    position: absolute;
+    width: 50%;
+    bottom: 23%;
+    left: 22%;
+    height: 400px;
+    color: #fff;
+    flex-direction: column;
+    justify-items: center;
+}
+.title-hero {
+    color: #fff;
+    font-size: 5.0em;
+    font-weight: 600;
+}
+.text-hero {
+    font-family: var(--fonte-principal);
+    font-size: 1.6em;
+}
+
+
+.button-view {
+    background-color: #f76c08;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 5%;
+}
+
+.button-resevation {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 5%;
+    border: 2px solid #fff;
+}
+.div-buttons {
+    width: 90%;
+    padding-left: 16%;
 }
